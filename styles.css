@@ -1,0 +1,101 @@
+/*RESETING THE DEFAULT BROWSER SPACING*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+
+}
+body {
+    background: bisque;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+
+}
+/*HEADER SECTION*/
+.site-header {
+    background: #1a1815;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+ 
+.brand-block h1 {
+    font-size: 2rem;
+}
+ 
+.slogan {
+    color: #cfc9bd;
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+}
+.site-nav {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+ 
+.site-nav a {
+    color: #fff;
+    text-decoration: none; /* removes the underline */
+}
+ 
+.site-nav a:hover {
+    color: #d9ac6e; /* gold on hover */
+}
+/*HERO SECTION*/
+.site-nav {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+ 
+.site-nav a {
+    color: #fff;
+    text-decoration: none; /* removes the underline */
+}
+ 
+.site-nav a:hover {
+    color: #d9ac6e; /* gold on hover */
+}
+ 
+/* ===== HERO SECTION ===== */
+.hero {
+    display: flex;
+    flex-wrap: wrap; /* stacks on small screens instead of squishing */
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem 2rem;
+}
+ 
+.hero-text {
+    flex: 1; /* takes up equal space next to the image */
+    min-width: 250px;
+}
+ 
+.hero-card img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px; /* rounded corners on the image */
+}
+/*SPACING OF SECTIONS*/
+.section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+ 
+.section-label {
+    color: #8fae93;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+ 
+.section-heading h2 {
+    margin: 0.3rem 0 1rem;
+    font-size: 1.6rem;
+}
+ 
