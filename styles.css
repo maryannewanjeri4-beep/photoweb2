@@ -1,0 +1,46 @@
+/*RESETING THE DEFAULT BROWSER SPACING*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+
+}
+body {
+    background: bisque;
+    color: burlywood;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+
+}
+/*HEADER SECTION*/
+.site-header {
+    background: #1a1815;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+ 
+.brand-block h1 {
+    font-size: 2rem;
+}
+ 
+.slogan {
+    color: #cfc9bd;
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+}
+.site-nav {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+ 
+.site-nav a {
+    color: #fff;
+    text-decoration: none; /* removes the underline */
+}
+ 
+.site-nav a:hover {
+    color: #d9ac6e; /* gold on hover */
+}
